@@ -2,6 +2,8 @@
 
 Web application for viewing and writing configuration in zookeeper. The application is splitted in angular front-end and spring back-end.
 
+![Screenshot](https://github.com/dave90/Zoo-GUI/blob/main/img/screen1.png)
+
 ## Prerequisites
 
 - **Java**
