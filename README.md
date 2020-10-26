@@ -30,3 +30,18 @@ Under the directory *zoo-gui/dist/zoo-gui* run the command:
 - **npm start**
 
 ## Usages
+
+### Loading XML Configuration
+
+### Reading and Writing Nodes
+
+### Request Node as Java Objects
+
+### Deleting Node
+
+### Options
+
+
+
+
+
