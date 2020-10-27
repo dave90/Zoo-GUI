@@ -51,8 +51,8 @@ Example of xml file:
 <Tests>
   
   <test id="1">
-    <BootstrapServer type="CHAR">10.39.92.71:9092</BootstrapServer>
-    <GatewayIP type="CHAR">10.39.92.71:9092</GatewayIP>
+    <BootstrapServer type="CHAR">10.0.0.71:9092</BootstrapServer>
+    <GatewayIP type="CHAR">10.0.0.72:9092</GatewayIP>
   </test>
   
 </Tests>  
