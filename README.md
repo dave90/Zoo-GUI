@@ -31,13 +31,52 @@ Under the directory *zoo-gui/dist/zoo-gui* run the command:
 
 ## Usages
 
+- [Loading XML Configuration](#loading-xml-configuration)
+- [Reading and Writing Nodes](#reading-and-writing-nodes)
+- [Request Node as Java Objects](#request-node-as-java-objects)
+- [Deleting Node](#deleting-node)
+- [Options](#options)
+
+
 ### Loading XML Configuration
+
+You can load zookeeper configuration using xml file selecting in the menu: *Load XML*.
+
+Wait untile the file is loaded and after complete close the dialog.
+
+Example of xml file:
+```xml
+<Tests>
+  
+  <test id="1">
+    <BootstrapServer type="CHAR">10.39.92.71:9092</BootstrapServer>
+    <GatewayIP type="CHAR">10.39.92.71:9092</GatewayIP>
+  </test>
+  
+</Tests>  
+```    
+
 
 ### Reading and Writing Nodes
 
+In the *Zoo Nodes* card you can find the tree stored in zookeeper. Expand the tree node load the child nodes and and shows them. If the node is a leaf then you can click the link node and display and edit the related information in *Node Info* card. To save changes remember to click the **Save** button.  
+
 ### Request Node as Java Objects
 
+Is possible to save the value of a node as Java object. The current supported type are:
+
+- *java.lang.Integer*
+- *java.lang.Float*
+- *java.lang.String*
+- *java.lang.Double*
+
+If the type is None then the value is stored as a plain string.
+
 ### Deleting Node
+
+To delete a node stored in zookeeper click on circled minus near to the node.
+
+Remember that **cancellation is not reversible**
 
 ### Options
 
